@@ -1,3 +1,1 @@
-# 我的学术主页
-
-**My howepage:** http://thumichzqn.github.io/
+http://thumichzqn.github.io/
