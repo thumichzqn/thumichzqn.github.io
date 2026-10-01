@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/jemdoc.css' | relative_url }}" type="text/css">
+  <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+  <div class="menu-category">Menu</div>
+  <div class="menu-item"><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="current"{% endif %}>Home</a></div>
+  <div class="menu-item"><a href="cv/CV.pdf">CV</a></div>
+  <div class="menu-item"><a href="https://scholar.google.com/citations?user=mz_wcnMAAAAJ&hl=en">Google Scholar</a></div>
+  <div class="menu-item"><a href="https://github.com/thumichzqn">GitHub</a></div>
+</td>
+<td id="layout-content">
+  {{ content }}
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+title: Qining Zhang
+description: Personal academic website of Qining Zhang
+url: "https://thumichzqn.github.io"
+baseurl: ""
+
+# GitHub Pages uses Jekyll automatically. We keep the site intentionally
+# lightweight and use the existing jemdoc.css for its visual appearance.
+markdown: kramdown
+
+exclude:
+  - DEVELOPING.md
+  - Gemfile
+  - Gemfile.lock

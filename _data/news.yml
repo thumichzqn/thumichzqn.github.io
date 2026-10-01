@@ -1,0 +1,40 @@
+# Add new items at the top so the newest news appears first.
+# The url field is optional.
+
+# - date: "Aug 2026"
+#   text: "Our work on reinforcement learning from segment preferences (SP3O) is available on arXiv."
+#   url: "https://arxiv.org/abs/2608.02951"
+
+# - date: "Apr 2026"
+#   text: "Our work on efficient federated RLHF via zeroth-order policy optimization is available on arXiv."
+#   url: "https://arxiv.org/abs/2604.17747"
+
+- date: "Oct. - Nov. 2026"
+  text: "I will be visiting several universities this fall to give talks on stochastic zeroth-order policy optimization for reinforcement learning."
+  visits:
+    - place: "Computer Science Department at Carnegie Mellon University"
+      host: "Many thanks to Prof. Weina Wang for hosting!"
+      date: "Oct. 9, 2026"
+
+    - place: "ECE Department at University of Virginia"
+      host: "Many thanks to Prof. Cong Shen for hosting!"
+      date: "Oct. 12, 2026"
+
+    - place: "CS Department at Virginia Tech"
+      host: "Many thanks to Prof. Bo Ji for hosting!"
+      date: "Oct. 15, 2026"
+
+    - place: "School of EECS at Penn State University"
+      host: "Many thanks to Prof. Bin Li for hosting!"
+      date: "Oct. 20, 2026"
+
+    - place: "ECE Department at Johns Hopkins University"
+      host: "Many thanks to Prof. Laixi Shi for hosting!"
+      date: "Oct. 22, 2026"
+
+    - place: "ECE Department at University of California Davis"
+      host: "Many thanks to Prof. Junshan Zhang for hosting!"
+      date: "Nov. 5, 2026"
+
+- date: "Nov. 1, 2026"
+  text: 'I will attend the INFORMS Annual Meeting and present my job-market talk in the <a href="https://submissions.mirasmart.com/InformsAnnual2026/Itinerary/EventDetail.aspx?evt=843">SA26 - Queues, Learning, and Applied Probability</a> session.'

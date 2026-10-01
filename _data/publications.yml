@@ -1,0 +1,125 @@
+# Publication data for the website.
+# category values: preprint, journal, other
+
+- title: Actor-Predictor Architecture for Reinforcement Learning with Formal Specification Objectives
+  authors: Josef Brozovich, <b>Qining Zhang</b>, Lei Ying.
+  venue: Under Review
+  year: 2026
+  category: preprint
+
+- title: Efficient Federated Reinforcement Learning from Human Feedback via Zeroth-Order Policy Optimization
+  url: https://arxiv.org/abs/2604.17747
+  authors: Deyi Wang*, <b>Qining Zhang*</b>, Lei Ying.
+  venue: Under Review, Equal contribution
+  year: 2026
+  category: preprint
+
+- title: 'SP3O: Reinforcement Learning from Segment Preferences without Reward Modeling'
+  url: https://arxiv.org/abs/2608.02951
+  authors: Evan Assmus, <b>Qining Zhang</b>, Lei Ying.
+  venue: Under Review
+  year: 2026
+  category: preprint
+
+- title: 'Sign-SZPO: Provable Preference-based Reinforcement Learning with an Unknown Link Function'
+  url: https://arxiv.org/abs/2506.03066
+  authors: <b>Qining Zhang</b>, Lei Ying.
+  venue: Reinforcement Learning Conference (RLC) and Reinforcement Learning Journal (RLJ)
+  year: 2026
+  category: journal
+  acceptance: 33.9%
+  note: A short version was accepted at the MLxOR Workshop of NeurIPS, 2025.
+
+- title: Multi-Metric Adaptive Experimental Design Under a Fixed Budget with Validation
+  url: https://proceedings.mlr.press/v300/zhang26c.html
+  authors: <b>Qining Zhang</b>, Tanner Fiez, Yi Liu, Wenyang Liu.
+  venue: International Conference on Artificial Intelligence and Statistics (AISTATS)
+  year: 2026
+  category: journal
+  acceptance: 28.1%
+
+- title: Fingerprinting and Quantification of Procyanidins via LC-MS/MS and ESI In-Source Fragmentation
+  url: https://pubs.acs.org/doi/10.1021/acs.jafc.5c02379
+  authors: Yanxin Lin, Helene Hopfer, <b>Qining Zhang</b>, Misha T. Kwasniewski.
+  venue: Journal of Agricultural and Food Chemistry
+  year: 2025
+  category: journal
+
+- title: Zeroth-Order Policy Gradient for Reinforcement Learning from Human Feedback without Reward Inference
+  url: https://proceedings.iclr.cc/paper_files/paper/2025/hash/f7f8475f6222a3fa62759a9db03216b4-Abstract-Conference.html
+  authors: <b>Qining Zhang</b>, Lei Ying.
+  venue: International Conference on Learning Representations (ICLR)
+  year: 2025
+  category: journal
+  acceptance: 32.1%
+
+- title: 'Reinforcement Learning from Human Feedback without Reward Inference: Model-Free Algorithm and Instance-Dependent
+    Analysis'
+  url: https://rlj.cs.umass.edu/2024/papers/Paper150.html
+  authors: <b>Qining Zhang</b>, Honghao Wei, Lei Ying.
+  venue: Reinforcement Learning Conference (RLC) and Reinforcement Learning Journal (RLJ)
+  year: 2024
+  category: journal
+  acceptance: '~40%'
+
+- title: Cost Aware Best Arm Identification
+  url: https://rlj.cs.umass.edu/2024/papers/Paper193.html
+  authors: Kellen Kanarios, <b>Qining Zhang</b>, Lei Ying.
+  venue: Reinforcement Learning Conference (RLC) and Reinforcement Learning Journal (RLJ)
+  year: 2024
+  category: journal
+  acceptance: '~40%'
+
+- title: Deep Reinforcement Learning for Early Diagnosis of Lung Cancer
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/30248
+  authors: Yifan Wang, <b>Qining Zhang</b>, Lei Ying, Chuan Zhou.
+  venue: AAAI Conference on Artificial Intelligence (AAAI)
+  year: 2024
+  category: journal
+  acceptance: 24.2%
+
+- title: 'Fast and Regret Optimal Best Arm Identification: Fundamental Limits and Low-Complexity Algorithms'
+  url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/35fdecdf8861bc15110d48fbec3193cf-Abstract.html
+  authors: <b>Qining Zhang</b>, Lei Ying.
+  venue: Advances in Neural Information Processing Systems (NeurIPS)
+  year: 2023
+  category: journal
+  acceptance: 26.1%
+
+- title: On Low-Complexity Quickest Intervention of Mutated Diffusion Processes Through Local Approximation
+  url: https://arxiv.org/abs/2206.04733
+  authors: <b>Qining Zhang</b>, Honghao Wei, Weina Wang, Lei Ying.
+  venue: ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile
+    Computing (MobiHoc)
+  year: 2022
+  category: journal
+  acceptance: 19.8%
+
+- title: Online Utility Optimization in Multi-User Interference Networks Under a Long-Term Budget Constraint
+  url: https://ieeexplore.ieee.org/document/9804194
+  authors: Yuchao Chen, Jintao Wang, <b>Qining Zhang</b>, Feifei Gao, Jian Song.
+  venue: IEEE Transactions on Vehicular Technology
+  year: 2022
+  category: journal
+
+- title: Early Lung Cancer Diagnosis from Virtual Follow-up LDCT Generation via Correlational Autoencoder and Latent Flow
+    Matching
+  url: https://arxiv.org/abs/2511.18185
+  authors: Yutong Wu, Yifan Wang, <b>Qining Zhang</b>, Chuan Zhou, Lei Ying.
+  venue: W3PHIAI-26 Workshop at AAAI
+  year: 2026
+  category: other
+
+- title: Online Optimizing Multi-user Interference Network Utility with Unknown CSI under Budget Constraint
+  url: https://ieeexplore.ieee.org/document/9771704
+  authors: Yuchao Chen, Jintao Wang, <b>Qining Zhang</b>, Feifei Gao, Jian Song.
+  venue: IEEE Wireless Communications and Networking Conference (WCNC)
+  year: 2022
+  category: other
+
+- title: Minimizing the Age of Synchronization in Power-Constrained Wireless Networks with Unreliable Time-Varying Channels
+  url: https://drive.google.com/file/d/1_hBr8_ZsfL4RmCOKqrgoLUwaEnq9b1h3/view
+  authors: <b>Qining Zhang</b>, Haoyue Tang, Jintao Wang.
+  venue: Age of Information Workshop, IEEE INFOCOM Workshops
+  year: 2020
+  category: other

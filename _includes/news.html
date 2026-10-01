@@ -1,0 +1,23 @@
+<h2>News</h2>
+
+<ul>
+{% for item in site.data.news %}
+  <li>
+    <p>
+      <b>{{ item.date }}</b>: {{ item.text }}
+    </p>
+
+    {% if item.visits %}
+    <ul>
+      {% for visit in item.visits %}
+        <li>
+          <p>
+            <b>{{ visit.date }}</b>: {{ visit.place }}. {{ visit.host }}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

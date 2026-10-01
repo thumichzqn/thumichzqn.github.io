@@ -1,0 +1,61 @@
+<h2>Publications</h2>
+
+<h3>Preprints</h3>
+<ol>
+{% for paper in site.data.publications %}
+  {% if paper.category == "preprint" %}
+    <li><p>
+      {% if paper.url %}
+        <a href="{{ paper.url }}">{{ paper.title }}</a>
+      {% else %}
+        {{ paper.title }}
+      {% endif %}<br>
+      {{ paper.authors }}<br>
+      {{ paper.venue }}{% if paper.year %}, {{ paper.year }}{% endif %}.
+      {% if paper.acceptance %}
+        <b>(Acceptance Rate: {{ paper.acceptance }})</b>
+      {% endif %}
+      {% if paper.note %}
+        <br>{{ paper.note }}
+      {% endif %}
+    </p></li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+
+<h3>Journals and Journal-Quality Conferences</h3>
+<ol>
+{% for paper in site.data.publications %}
+  {% if paper.category == "journal" %}
+    <li><p>
+      <a href="{{ paper.url }}">{{ paper.title }}</a><br>
+      {{ paper.authors }}<br>
+      {{ paper.venue }}{% if paper.year %}, {{ paper.year }}{% endif %}.
+      {% if paper.acceptance %}
+        <b>(Acceptance Rate: {{ paper.acceptance }})</b>
+      {% endif %}
+      {% if paper.note %}
+        <br>{{ paper.note }}
+      {% endif %}
+    </p></li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+
+<h3>Other Publications</h3>
+<ol>
+{% for paper in site.data.publications %}
+  {% if paper.category == "other" %}
+    <li><p>
+      <a href="{{ paper.url }}">{{ paper.title }}</a><br>
+      {{ paper.authors }}<br>
+      {{ paper.venue }}{% if paper.year %}, {{ paper.year }}{% endif %}.
+      {% if paper.note %}
+        <br>{{ paper.note }}
+      {% endif %}
+    </p></li>
+  {% endif %}
+{% endfor %}
+</ol>
