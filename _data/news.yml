@@ -34,7 +34,11 @@
 
     - place: "ECE Department at University of California Davis"
       host: "Many thanks to Prof. Junshan Zhang for hosting!"
-      date: "Nov. 5, 2026"
+      date: "Nov. 9, 2026"
+
+    - place: "CMS Department at Caltech"
+      host: "Many thanks to Prof. Adam Wierman for hosting!"
+      date: "Nov. 12, 2026"
 
 - date: "Nov. 1, 2026"
   text: 'I will attend the INFORMS Annual Meeting and present my job-market talk in the <a href="https://submissions.mirasmart.com/InformsAnnual2026/Itinerary/EventDetail.aspx?evt=843">SA26 - Queues, Learning, and Applied Probability</a> session.'
